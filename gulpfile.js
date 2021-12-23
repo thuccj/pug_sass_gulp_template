@@ -175,6 +175,19 @@ async function clean() {
 	return Promise.resolve(del.sync("public"));
 }
 
+function removeEmptyTemplateFile(){
+	del([
+		'build/fonts/empty.ttf',
+		'build/images/empty.png',
+		'build/sounds/empty.wav',
+		'build/videos/empty.mp4',
+		'build/views/blocks/empty.pug',
+		'build/views/layout/empty.pug',
+		'build/styles/themes/empty.txt',
+		'build/styles/vendors/empty.txt'
+	])
+}
+
 function watchFiles() {
 	gulp.watch(options.pug.all, views);
 	gulp.watch(options.styles.src, styles);
@@ -195,6 +208,7 @@ exports.scripts = scripts;
 exports.images = images;
 exports.fonts = fonts;
 exports.clean = clean;
+exports.rmEmpty = removeEmptyTemplateFile;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
