@@ -44,7 +44,7 @@
 | Command                 | Chức năng          
 | ----------------------- |-----------------------------------|
 | `gulp styles`           | build thư mục styles sass -> css 
-| `gulp views`            | build thư mục styles pug  -> html
+| `gulp views`            | build thư mục views pug  -> html
 | `gulp scripts`          | build thư mục scripts       
 | `gulp images`           | build thư mục images và thu gọn ảnh
 | `gulp fonts`            | build thư mục fonts
