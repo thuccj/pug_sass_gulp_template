@@ -54,3 +54,9 @@
 | `gulp rmEmpty`          | xóa các file empty.* 
 | `gulp build` hoặc `gulp`| build tất cả thư mục
 | `gulp watch`            | browsersync ở port 3000
+
+### :hash: Documentation
+- [PUG](https://pugjs.org/language/attributes.html)
+- [SASS](https://sass-lang.com/guide)
+- [GULP](https://gulpjs.com/docs/en/getting-started/quick-start)
+
