@@ -11,6 +11,10 @@
 - Cài đặt [Node js](https://nodejs.org/en/)
 - Tới thư mục project cài template và các modules
 
+
+ ```diff
+ @@ Sử dụng cmd @@
+```
  ```
  
   git clone https://github.com/sangcamap/pug_sass_gulp_template
