@@ -184,7 +184,9 @@ function removeEmptyTemplateFile(){
 		'build/views/blocks/empty.pug',
 		'build/views/layout/empty.pug',
 		'build/styles/themes/empty.txt',
-		'build/styles/vendors/empty.txt'
+		'build/styles/vendors/empty.txt',
+		'LICENSE',
+		'README.md'
 	])
 }
 
